@@ -1,0 +1,26 @@
+{
+  "name": "template-types-library",
+  "version": "0.0.0",
+  "description": "Types library template",
+  "keywords": [],
+  "bugs": "https://github.com/yaroslav-korotaev/template-types-library/issues",
+  "license": "MIT",
+  "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": "yaroslav-korotaev/template-types-library",
+  "scripts": {
+    "lint": "tslint -c tslint.json -p tsconfig.json -t stylish",
+    "build": "tsc",
+    "test": "true"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.16.0",
+    "tslint-config-hurp": "^1.2.2",
+    "typescript": "^3.4.5"
+  }
+}
